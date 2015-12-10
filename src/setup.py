@@ -89,7 +89,8 @@ import distutils_hack
 import ez_setup
 ez_setup.use_setuptools()
 
-from setuptools import setup, find_packages, Extension, Library
+from setuptools import setup, find_packages, Extension
+from setuptools.extension import Library
 
 from glob import glob
 import sys
