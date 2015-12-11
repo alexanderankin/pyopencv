@@ -138,7 +138,7 @@ except ImportError: # no config.py file found
 
 setup(
     name = "pyopencv",
-	version = C.PYOPENCV_VERSION,
+	version = "3.0",
 	description = DOCLINES[0],
 	author = 'Minh-Tri Pham',
 	author_email = 'pmtri80@gmail.com',
